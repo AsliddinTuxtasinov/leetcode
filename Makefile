@@ -1,7 +1,10 @@
 # Makefile
 
 # Define the name of your git commit message
-GIT_COMMIT_MSG = "10-solved(217-Contains-Duplicate problem) easy!"
+GIT_COMMIT_MSG = "11-update some scipt codes!"
+
+# Define the name of your git brach name
+BRANCH_NAME = master
 
 # Command to push a commit to the repository
 push:
@@ -13,7 +16,7 @@ push:
 	echo "# # # # # # # # # # # # # # # # # # # # # # # # #"
 	git add .
 	git commit -m $(GIT_COMMIT_MSG)
-	git push origin master
+	git push origin $(BRANCH_NAME)
 	git status
 	sleep 2
 	clear
