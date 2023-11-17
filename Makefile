@@ -17,6 +17,7 @@ push:
 	git add .
 	git commit -m $(GIT_COMMIT_MSG)
 	git push origin $(BRANCH_NAME)
+	git pull origin master
 	git status
 	sleep 2
 	clear
