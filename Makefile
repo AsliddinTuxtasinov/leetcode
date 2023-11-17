@@ -1,7 +1,7 @@
 # Makefile
 
 # Define the name of your git commit message
-GIT_COMMIT_MSG = "11-update some scipt codes!"
+GIT_COMMIT_MSG = "12-solved(1816-Truncate-Sentence) easy!"
 
 # Define the name of your git brach name
 BRANCH_NAME = master
