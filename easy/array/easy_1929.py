@@ -10,13 +10,15 @@
 # - ans = [nums[0],nums[1],nums[2],nums[0],nums[1],nums[2]]
 # - ans = [1,2,1,1,2,1]
 
-def getConcatenation(nums=[4,8, 5, 8]):
+
+def getConcatenation(nums=[4, 8, 5, 8]):
     resp = nums.copy()
     resp.extend(nums)
     return resp
 
-nums = [1,2,1]
+
+nums = [1, 2, 1]
 print(f"inputs -> {nums}\noutputs -> {getConcatenation(nums=nums)}")
-# 
+#
 # inputs -> [1, 2, 1]
 # outputs -> [1, 2, 1, 1, 2, 1]

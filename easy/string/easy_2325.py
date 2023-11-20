@@ -17,20 +17,19 @@ def decodeMessage(key: str, message: str):
     message = list(message)
 
     for i in key.replace(" ", ""):
-
         if i not in key_h:
             key_h.append(i)
 
-    for id, val in  enumerate(message):
+    for id, val in enumerate(message):
         if val in key_h:
             i = key_h.index(val)
             message[id] = alphabets[i]
-    
+
     return "".join(message)
 
 
 key = "the quick brown fox jumps over the lazy dog"
 message = "vkbs bs t suepuv"
 print(decodeMessage(key=key, message=message))
-#--
+# --
 # this is a secret

@@ -5,6 +5,7 @@
 #     Each substring is balanced.
 # Return the maximum number of balanced strings you can obtain.
 
+
 # Input: s = "RLRRLLRLRL"
 # Output: 4
 # Explanation: s can be split into "RL", "RRLL", "RL", "RL", each substring contains same number of 'L' and 'R'.
@@ -15,9 +16,9 @@ def balancedStringSplit(s: str) -> int:
             flag += 1
         else:
             flag -= 1
-        
+
         if flag == 0:
-            res+=1
+            res += 1
 
     return res
 

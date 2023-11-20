@@ -6,7 +6,8 @@ class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
-        
+
+
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
         res = []
@@ -16,5 +17,5 @@ class Solution:
         return res
 
 
-nums = [1,1,2,3,3]
+nums = [1, 1, 2, 3, 3]
 print(f"head = [1,1,2,3,3]: {Solution().deleteDuplicates(head=nums)}")

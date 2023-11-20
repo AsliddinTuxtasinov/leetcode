@@ -8,10 +8,10 @@
 
 
 def runningSum(nums):
-    flag=0
+    flag = 0
     res = []
     for i in nums:
         flag += i
         res.append(flag)
-    
+
     return res
