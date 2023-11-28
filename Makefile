@@ -1,9 +1,8 @@
 # Makefile
 
 # Define the name of your git commit message
-# GIT_COMMIT_MSG = "14-solved(2828-Check-if-a-String-Is-an-Acronym-of-Words) easy!"
-GIT_COMMIT_MSG = "15-update (2828-Check-if-a-String-Is-an-Acronym-of-Words)"
-
+# GIT_COMMIT_MSG = "15-update (2828-Check-if-a-String-Is-an-Acronym-of-Words)"
+GIT_COMMIT_MSG = "16-learning (Linkedlist: Node, append, insert, search) !"
 
 # Define the name of your git brach name
 BRANCH_NAME = master
