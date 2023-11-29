@@ -5,7 +5,6 @@ from string_problems.easy.easy_1832 import checkIfPangram
 from string_problems.easy.easy_2325 import decodeMessage
 
 
-
 class TestStringProblemSolves(unittest.TestCase):
     def test_balancedStringSplit_1221(self):
         self.assertEqual(

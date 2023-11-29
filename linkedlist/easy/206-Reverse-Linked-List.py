@@ -25,18 +25,18 @@ class ListNode:
         # ListNode class represents a node in a singly linked list.
         self.val = val  # Value of the node
         self.next = next  # Reference to the next node in the list
-    
+
     def append(self, val):
         # Append a new node with the given value to the end of the list.
         new_node = ListNode(val=val)
         if self.val is None:  # If the current node is empty, set it to the new node.
             self.val = new_node
             return
-        
+
         current_node = self
         while current_node.next:
             current_node = current_node.next  # Traverse the list to find the last node.
-        
+
         current_node.next = new_node  # Add the new node to the end.
 
 
@@ -58,10 +58,10 @@ class Solution:
                 new_node.append(item)
 
             return new_node  # Return the head of the reversed linked list.
-        
+
 
 # simple array
-arr = [1,2,3,4,5]
+arr = [1, 2, 3, 4, 5]
 
 # create linked list
 head = ListNode(val=arr[0])
