@@ -1,7 +1,9 @@
 import unittest
-from easy_1221 import balancedStringSplit
-from easy_1832 import checkIfPangram
-from easy_2325 import decodeMessage
+
+from string_problems.easy.easy_1221 import balancedStringSplit
+from string_problems.easy.easy_1832 import checkIfPangram
+from string_problems.easy.easy_2325 import decodeMessage
+
 
 
 class TestStringProblemSolves(unittest.TestCase):

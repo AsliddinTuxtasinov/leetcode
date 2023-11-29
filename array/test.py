@@ -1,9 +1,9 @@
 import unittest
 
-from easy_1920 import buildArray
-from easy_1929 import getConcatenation
-from easy_1470 import shuffle
-from easy_1480 import runningSum
+from array.easy.easy_1920 import buildArray
+from array.easy.easy_1929 import getConcatenation
+from array.easy.easy_1470 import shuffle
+from array.easy.easy_1480 import runningSum
 
 
 class TestSum(unittest.TestCase):
