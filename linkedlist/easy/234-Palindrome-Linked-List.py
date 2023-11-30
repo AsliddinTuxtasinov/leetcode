@@ -29,20 +29,20 @@ class Solution:
         # Check if the linked list is empty
         if head is None:
             return False
-        
+
         # Initialize an empty string to store the values of the linked list
         res = ""
-        
+
         # Start from the head of the linked list
         current_node = head
-        
+
         # Traverse the linked list and concatenate the values to the string
         while current_node.next:
             res += str(current_node.val)
             current_node = current_node.next
-        
+
         # Add the value of the last node to the string
         res += str(current_node.val)
-        
+
         # Check if the string is equal to its reverse, indicating a palindrome
         return res == res[::-1]
