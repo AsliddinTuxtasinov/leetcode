@@ -36,38 +36,40 @@ class ListNode:
             current_node = current_node.next
         current_node.next = new_node
 
+
 def creat_linked_list(arr: list) -> Optional[ListNode]:
     # Intuition: Create a linked list from a given array.
     if arr is None:
         return None
-    
+
     head = ListNode(val=arr[0])
     for item in arr[1:]:
         head.append_node(val=item)
     return head
+
 
 def get_linked_list_like_list(head: ListNode) -> Optional[list]:
     # Intuition: Extract values from a linked list and return them in a list.
     res = []
     if head is None:
         return res
-    
+
     current_node = head
     while current_node.next:
         res.append(current_node.val)
         current_node = current_node.next
-    
+
     res.append(current_node.val)
     return res
+
 
 class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
         # Intuition: Find the middle node of the linked list.
         arr = get_linked_list_like_list(head=head)
-        middle_index = len(arr)//2
+        middle_index = len(arr) // 2
         return creat_linked_list(arr=arr[middle_index:])
 
 
-
-head = creat_linked_list(arr=[1,2,3,4,5,6])
+head = creat_linked_list(arr=[1, 2, 3, 4, 5, 6])
 Solution().middleNode(head=head)
