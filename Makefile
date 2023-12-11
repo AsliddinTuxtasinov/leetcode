@@ -1,7 +1,7 @@
 # Makefile
 
 # Define the name of your git commit message
-GIT_COMMIT_MSG = "23-unsolved(160-Intersection-of-Two-Linked-Lists) easy! :("
+GIT_COMMIT_MSG = "24-learning(Stack Algorithm)"
 # GIT_COMMIT_MSG = "16-learning (Linkedlist: Node, append, insert, search) !"
 
 # Define the name of your git brach name
